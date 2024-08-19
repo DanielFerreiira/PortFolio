@@ -1,5 +1,7 @@
 #section1{
     height: 500px;
-    background: #FFF;
+    background: url(../../../../imagens/global/3.jpg);
     border: 2px solid;
+    background-size: 1200px;
+    background-repeat: no-repeat;
 }

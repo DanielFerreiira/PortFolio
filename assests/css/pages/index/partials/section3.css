@@ -5,4 +5,11 @@
     height: 600px;
     background: #FFF;
     border: 2px solid;
+    padding: 20px;
+}
+
+#list-section3 li{
+    height: 50px;
+    background: var(--color2);
+    margin-bottom: 10px;
 }

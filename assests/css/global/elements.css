@@ -15,12 +15,29 @@ ul{
     list-style-type: none;
 }
 
-ul li{
+.nav-main ul li{
     display: inline-block;
 }
 
 body{
     background-color: var(--color1);
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color1);
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 28px;
 }
 
 #container{
