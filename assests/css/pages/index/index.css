@@ -1,0 +1,15 @@
+@import url(partials/section1.css);
+@import url(partials/section2.css);
+@import url(partials/section3.css);
+@import url(partials/section4.css);
+
+/*De uso comum da página*/
+.sct2-1{
+    width: 850px;
+    background: var(--color3);
+}
+
+.sct2-2{
+    width: 350px;
+    background: var(--color4);
+}

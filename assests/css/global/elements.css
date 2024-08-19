@@ -1,0 +1,49 @@
+/*Limpeza de formatações*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Tags próprias*/
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #FFF;
+}
+
+/*Barra de navegação principal*/
+nav.nav-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background: var(--color3);
+}
+
+.nav-main a{
+    font-size: 20px;
+}
+
+.nav-main li{
+    margin-left: 10px;
+}
