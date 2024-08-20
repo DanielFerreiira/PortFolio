@@ -1,15 +1,28 @@
 #section3{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 30px;
-    height: 600px;
     background: #FFF;
     border: 2px solid;
     padding: 20px;
 }
 
-#list-section3 li{
-    height: 50px;
-    background: var(--color2);
-    margin-bottom: 10px;
+/*dv-1*/
+#dv-1, #dv-2{
+    background: var(--color3);
+    border: 2px solid #000;
+}
+
+#dv-1 li{
+    height: 150px;
+    background: var(--color4);
+    margin-bottom: 20px;
+}
+
+/*dv-2*/
+#dv-2 li{
+    height: 120px;
+    background: var(--color4);
+    margin-bottom: 20px;
 }
