@@ -1,32 +1,23 @@
 /*Limpeza de formatações*/
-*{
-    margin: 0;
-    padding: 0;
+*{    
     box-sizing: border-box;
     font-family: "New Amsterdam", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /*Tags próprias*/
-a{
-    text-decoration: none;
+a{    
     color: #FFF;
-}
-
-ul{
-    list-style-type: none;
-}
-
-.nav-main ul li{
-    display: inline-block;
+    text-decoration: none;
 }
 
 body{
     background-color: var(--color1);
 }
 
-h1, h2, h3, h4, h5, h6{
-    color: var(--color1);
-    padding: 5px 0;
+ul{
+    list-style-type: none;
 }
 
 h1{
@@ -34,43 +25,71 @@ h1{
 }
 
 h2{
-    font-size: 32px;
     background-color: var(--color3);
+    font-size: 32px;
 }
 
 h3{
     font-size: 28px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    color: var(--color1);
+    padding: 5px 0;
+}
+
 p{
     text-align: justify;
 }
 
+/*Container*/
 #container{
-    width: 1200px;
-    margin: 0 auto;
     border:#FFF;
+    margin: 0 auto;
+    width: 1200px;
 }
 
 /*Barra de navegação principal*/
 nav.nav-main{
+    align-items: center;
+    background: var(--color3);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
     height: 60px;
-    background: var(--color3);
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .nav-main a{
     font-size: 20px;
+    border-radius: 15px;    
+    padding: 10px;
 }
 
 .nav-main li{
+    display: inline-block;
     margin-left: 10px;
 }
 
+.nav-main a:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+
+
+#img-logo{
+    width: 55px;
+    height: 50px;
+}
+
+#text-logo{
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+
+/*Bordas das seções*/
 #section2, #section3{
     border-radius: 20px;
 }

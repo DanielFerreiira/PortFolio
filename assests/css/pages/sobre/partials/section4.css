@@ -1,0 +1,23 @@
+#section4{
+    margin-top: 30px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: var(--color3);
+    padding-top: 15px;
+}
+
+#section4 img{
+    width: 50px;
+    height: 50px;
+}
+
+#section4 ul li{
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 20px 20px 15px;
+}
