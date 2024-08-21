@@ -4,19 +4,18 @@
     justify-content: space-between;
     margin-top: 30px;
     background: #FFF;
-    border: 2px solid;
     padding: 20px;
 }
 
 /*dv-1*/
-#dv-1, #dv-2{
-    background: var(--color3);
+
+#dv-2 p{
+    margin: 5px 0;
 }
 
 #dv-1 li{
     display: flex;
     flex-direction: row;
-    padding: 10px 0;
     height: 200px;
     background: var(--color4);
     margin-bottom: 20px;
@@ -24,7 +23,7 @@
 
 /*dv-2*/
 #dv-2 li{
-    height: 120px;
+    height: 95px;
     background: var(--color4);
     margin-bottom: 20px;
 }
@@ -35,7 +34,20 @@
     height: 100%;
 }
 
+.pj-1 img{
+    width: 250px;
+    height: 200px;
+}
+
 .pj-2{
-    margin-left: 15px;
+    margin: 0 15px;
     width: 550px;
+}
+
+#dv-1 li.ultimo{
+    margin-bottom: 0px;
+}
+
+.space-int a{
+    margin: 4px;
 }

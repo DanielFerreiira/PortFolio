@@ -26,7 +26,7 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     color: var(--color1);
-    margin-bottom: 10px;
+    padding: 5px 0;
 }
 
 h1{
@@ -35,6 +35,7 @@ h1{
 
 h2{
     font-size: 32px;
+    background-color: var(--color3);
 }
 
 h3{
@@ -48,7 +49,7 @@ p{
 #container{
     width: 1200px;
     margin: 0 auto;
-    border: 2px solid #FFF;
+    border:#FFF;
 }
 
 /*Barra de navegação principal*/
@@ -68,4 +69,8 @@ nav.nav-main{
 
 .nav-main li{
     margin-left: 10px;
+}
+
+#section2, #section3{
+    border-radius: 20px;
 }
