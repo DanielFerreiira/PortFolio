@@ -48,6 +48,7 @@ p{
     text-align: justify;
 }
 
+
 /*Container*/
 #container{
     border:#FFF;
@@ -98,14 +99,16 @@ nav.nav-main{
 /*Bordas das seções*/
 #section2, #section3{
     border-radius: 20px;
-}
-
-#section4{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    margin-top: 50px;
 }
 
 #section1{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+#section4{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 50px;
 }
