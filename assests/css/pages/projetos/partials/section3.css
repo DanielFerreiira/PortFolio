@@ -1,6 +1,50 @@
 #section3{
-    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background: #FFF;
-    background-size: 1200px;
-    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/*dv-2*/
+#dv-2 p{
+    margin: 5px 0;
+}
+
+#dv-1 li{
+    background: var(--color4);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/*dv-2*/
+#dv-2 li{
+    background: var(--color4);
+    height: 95px;
+    margin-bottom: 20px;
+    margin: 5px 0 5px 5ox;
+    padding: 5px 10px;
+}
+
+.pj-1{
+    background: #FFF;
+    height: 100%;
+    width: 250px;
+}
+
+.pj-1 img{
+    height: 200px;
+    width: 250px;
+}
+
+.pj-2{
+    margin: 0 15px;
+    width: 530px;
+    padding-top: 5px;
+}
+
+#dv-1 li.ultimo{
+    margin-bottom: 0px;
 }
