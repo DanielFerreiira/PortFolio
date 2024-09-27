@@ -1,7 +1,7 @@
 :root{
-    --color1: #022840;
-    --color2: #022840;
-    --color3: #0A8CBF;
-    --color4: #88DFF2;
-    --color5: #0A0C0D; 
+    --primary-color: #FF651C;
+    --dark-color: #373737;
+    --imagem-size: 450px;
+    --imagem-size2: 300px;
+    --imagem-size3: 250px;
 }

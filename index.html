@@ -1,122 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu PortFólio</title>
 
-    <!-- Estilo Global -->
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Estilo Global CSS -->
     <link rel="stylesheet" href="assests/css/global/global.css">
 
-    <!-- Estilo da Página -->
-    <link rel="stylesheet" href="assests/css/pages/index/index.css">
-</head>
-<body>
-    <div id="container">
-        <nav class="nav-main">
-            <div id="logo-nav-main">
-                <img id="img-logo"src="assests/imagens/global/Icone-site-hover.png" alt="Logo do Portfólio">
-                <a href="index.html" id="text-logo">
-                    MEU PORTFÓLIO
-                </a>
-            </div>
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-            <div>
-                <ul>
-                    <li><a href="projetos.html">Projetos</a></li>
-                    <li><a href="artigos.html">Artigos</a></li>
-                    <li><a href="sobre.html">Sobre Mim</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
+  </head>
 
-        <section id="section1"></section>
+  <body>
+    <!-- Header -->
+    <header class="main-header">
+      <nav class="navbar header-nav navbar-expand-lg ">
+        <div class="container">
+          <!-- Brand Name/Logo -->
+          <a href="#" class="navbar-brand">
+            <h4>Daniel <span class="text-primary">Ferreira</span></h4>
+          </a>
 
-        <section id="section2">
-            <div id="dv-1">
-                <h2>Sobre Mim</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum minima itaque odio ducimus laudantium impedit ab quidem. Natus, voluptatem officiis quidem beatae quam aliquam quibusdam reprehenderit earum incidunt dolor.</p><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum minima itaque odio ducimus laudantium impedit ab quidem. Natus, voluptatem officiis quidem beatae quam aliquam quibusdam reprehenderit earum incidunt dolor.</p><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum minima itaque odio ducimus laudantium impedit ab quidem. Natus, voluptatem officiis quidem beatae quam aliquam quibusdam reprehenderit earum incidunt dolor.</p><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolorum minima itaque odio ducimus laudantium impedit ab quidem. Natus, voluptatem officiis quidem beatae quam aliquam quibusdam reprehenderit earum incidunt dolor.</p>
-            </div>
-            
-            <div id="dv-2">
-                <img src="assests/imagens/global/imagem de perfil.jpg" alt="Imagem de Perfil">
-            </div>
-        </section>
-
-        <section id="section3">
-            <div id="dv-1">
-                <h2>Projetos Recentes</h2>
-                <ul>
-                    <li>
-                        <div class="pj-1"><img src="assests/imagens/global/pj-item1.jpg" alt=""></div>
-                        <div class="pj-2">
-                            <h3><a href="">Sistema de Gestão de Entregas</a></h3>
-                            <p>Este projeto é um Sistema de Gestão de Entrega, desenvolvido para otimizar e gerenciar o processo de entregas de mercadorias. </p><br>
-                            <p>Última Atualização</p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <div class="pj-1"><img src="assests/imagens/global/pj-construtor2.jpg" alt=""></div>
-                        <div class="pj-2">
-                            <h3><a href="">Projeto em Construção</a></h3>
-                            <p>O projeto está atualmente em fase de desenvolvimento, onde o programador está trabalhando na estruturação e implementação das funcionalidades principais.</p><br>
-                            <p>Última Atualização</p>
-                        </div>
-                    </li>
-
-                    <li class="ultimo">
-                        <div class="pj-1"><img src="assests/imagens/global/pj-construtor2.jpg" alt=""></div>
-                        <div class="pj-2 ultimo">
-                            <h3><a href="">Projeto em Construção</a></h3>
-                            <p>O projeto está atualmente em fase de desenvolvimento, onde o programador está trabalhando na estruturação e implementação das funcionalidades principais.</p><br>
-                            <p>Última Atualização</p>                            
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div id="dv-2">
-                <h2>Artigos</h2>
-                <ul id="dv-2">
-                    <li>
-                        <h3><a href="">Título do Artigo</a></h3>
-                        <p>Data: 01//08/2024</p>
-                    </li>
-
-                    <li>
-                        <h3><a href="">Título do Artigo</a></h3>
-                        <p>Data: 01//08/2024</p>
-                    </li>
-
-                    <li>
-                        <h3><a href="">Título do Artigo</a></h3>
-                        <p>Data: 01//08/2024</p>
-
-                    </li>
-
-                    <li>
-                        <h3><a href="">Título do Artigo</a></h3>
-                        <p>Data: 01//08/2024</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        
-        <section id="section4">
-            <h1>Minhas Redes Sociais</h1>
-            <ul>
-                <li><a href="https://github.com/DanielFerreiira" target="_blank"><img src="assests/imagens/global/Icon-github.png" alt=""></a></li>
-
-                <li><a href="mailto:danielferro01234@gmail.com" target="_blank"><img src="assests/imagens/global/Icon-gmail.png" alt=""></a></li>
-
-                <li><a href="https://www.linkedin.com/in/danielferreiira/" target="_blank"><img src="assests/imagens/global/Icon-linkenIn.png" alt=""></a></li>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse-toggle">
+            <ul class="navbar-nav mx-auto">
+              <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+              <li><a href="#servicos" class="nav-link">Serviços</a></li>
+              <li><a href="#projetos" class="nav-link">Projetos</a></li>
+              <li><a href="#habilidades" class="nav-link">Skills</a></li>
+              <li><a href="#contato" class="nav-link">PortFólio</a></li>
             </ul>
-        </section>
-    </div>
-</body>
+          </div>
+
+          <!-- Button -->
+          <div class="ms-auto d-none d-lg-block">
+            <a class="colored-btn" href="#contato">Entra em Contato</a>
+          </div>
+          
+          <!-- Mobile Menu Toggle 
+           -->
+          <button class="navbar-toggler collapsed" type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbar-collapse-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          </button>
+
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Home Section -->
+      <section class="home-section bg-gray">
+        <div class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6">
+              <div class="home-intro text-center text-lg-start">
+                <h6>Olá, Meu nome é Daniel.</h6>
+                <h1>Eu sou <span id="type-it"></span></h1>
+                <p>Com Sede em São Paulo, Brasil</p>
+                <a href="#sobre" class="colored-btn mt-1">Sobre Mim</a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 pt-4 pt-lg-8">
+              <div class="home-image text-center">
+                <img src="assests/img/imagem de perfil.jpg" alt="Imagem de Perfil">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sobre Section-->
+      <section id="sobre" class="section sobre-secao">
+        <div class="container">
+          <div class="row gy-5 align-items-center">
+            <div class="col-lg-6 text-center">
+              <img src="assests/img/Imagem 1.svg" alt="Um homem trabalhando em um escritório">
+            </div>
+
+            <div class="col-lg-6 ps-lg-5">
+              <div class="sobre-text">
+                <h3 class="h1 mb-3 text-dark fw-semibold">Estudante de Análise e Desenvolvimento de Sistemas</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate voluptate adipisci optio consequatur error iste dignissimos, ut molestiae eos ullam modi asperiores in est dicta numquam! Eveniet amet odio aliquid.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="section bg-gray" style="background-image: url(assests/img/degrade.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+          <div class="section-heading">
+            <h3>Meus Serviços</h3>
+          </div>
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <div class="feature-box">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="assests/vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="assests/vendor/typed/typed.js"></script>
+
+    <script src="assests/javascript/script.js"></script>
+    
+  </body>
 </html>
