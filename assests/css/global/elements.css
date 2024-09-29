@@ -72,11 +72,13 @@ a:hover{
     color: var(--primary-color);
 }
 
-.main-header .navbar-nav > li > .nav-link:hover::after{
+.main-header .navbar-nav > li > .nav-link:hover::after, 
+.main-header .navbar-nav > li > .nav-link.active::after{
     left: 0;
     right: auto;
     width: 100%;
 }
+
 
 @media (max-width: 991px) {
     .main-header .navbar-collapse {
@@ -188,8 +190,8 @@ main{
 .home-section{
     position: relative;
     overflow: hidden;
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: var(--imagem-size6);
+    padding-bottom: var(--imagem-size4);
 }
 
 @media (max-width: 767px) {
@@ -282,48 +284,26 @@ main{
 
 /* Sections */
 .section{
-    padding: 100px 0;
+    padding: 30px 0;
     position: relative;
 }
 
-@media (min-width: 992px) {
-    .section{
-        padding: 60px 0;
-    }
-}
-
-@media (max-width: 991px) {
-    .section{
-        padding: 50px 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .section{
-        padding: 40px 0;
-    }
-}
-
-@media (max-width: 575px) {
-    .section{
-        padding: 30px 0;
-    }
-}
-
 .section-heading{
-    padding-bottom: 60px;
+    margin-top: 60px;
     text-align: center;
 }
 
-@media (max-width: 991px) {
+@media (min-width: 991px) {
     .section-heading{
-        padding-bottom: 40px;
+        margin: 50px 0 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
 
 @media (max-width: 767px) {
     .section-heading{
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -340,6 +320,11 @@ main{
     .section-heading h3{
         font-size: 40px;
     }
+
+    .section-heading h3#testemunhas{
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
 }
 
 .sobre-text p{
@@ -352,8 +337,34 @@ main{
     font-size: 17px;
 }
 
+.feature-box img{
+    max-width: var(--imagem-size6);
+    height: var(--imagem-size6);
+    overflow: hidden;
+    margin: 0 10px;
+    border: 2px solid #373737;
+}
+
+@media (min-width:576px) {
+    #img-icon img{
+        display: block;
+        width: var(--imagem-size6);
+        height: var(--imagem-size6);
+        margin: 0 10px 0 0;
+    }
+}
+
+@media (max-width:575px) {
+    #img-icon img{
+        display: block;
+        width: var(--imagem-size4);
+        height: var(--imagem-size4);
+        margin: 0 10px 0 0;
+    }
+}
+
 .feature-box {
-    padding: 40px;
+    padding: 30px;
     border: 2px solid var(--dark-color);
     box-shadow: 0 0 0 0 var(--dark-color);
     display: flex;
@@ -484,4 +495,108 @@ main{
 
 .portfolio-box .portfolio-text .colored-btn{
     font-size: 12px;
+}
+
+/* Contato Section */
+.contato-form{
+    border: 2px solid var(--dark-color);
+    padding: 35px;
+    background-color: #FFF;
+}
+
+@media (max-width: 767px) {
+    .contato-form{
+        padding: 25px;
+    }
+}
+
+.contato-form .lead{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 30px;
+}
+
+.contato-form .form-control{
+    border-radius: 0;
+    border: 1px solid var(--dark-color);
+    box-shadow: none;
+    padding: 0.575rem .75rem;
+}
+
+.contato-info{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contato-info li{
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.contato-info li:last-child{
+    padding-bottom: 0;
+}
+
+.contato-info .icon{
+    width: var(--imagem-size7);
+    height: var(--imagem-size7);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-color);
+    font-size: 25px;
+}
+
+.contato-info h5{
+    font-size: 14px;
+    margin: 0 0 5px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contato-info p{
+    margin: 0;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+@media (max-width: 575px) {
+    .contato-info p{
+        margin: 0;
+        font-size: 15px;
+        color: #FFF;
+        font-weight: 500;
+    }
+
+    .contato-info{
+        margin: 20px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+/* Footer*/
+.footer{
+    background-color: var(--dark-color);
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, .75);
+}
+
+.footer .nav a{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.footer .nav a:hover{
+    color: var(--primary-color);
+}
+
+.footer .nav a + a{
+    margin-left: 18px;
 }
