@@ -47,3 +47,7 @@ $(document).ready(function() {
         topOffset: -60           // offste (in px) for fixed top navigation
       });
 });
+
+function mostrarAlerta(){
+    alert("Formulário enviado com sucesso!");
+}
